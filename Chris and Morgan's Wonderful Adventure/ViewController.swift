@@ -10,14 +10,26 @@ import UIKit
 import JWT
 
 class ViewController: UIViewController {
-
+    
+    @IBOutlet weak var conversationText: UITextView!
+    @IBOutlet weak var textIN: UITextField!
+    @IBOutlet weak var sendButton: UIButton!
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        
+        
+        
+        //can't edit by user
+        //conversationText.isEditable(false)
+        //stops field from being overriden
+        //conversationText.clearsOnInsertion(false)
     }
     
     override func viewWillAppear(_ animated: Bool) {
-        JWT.encode(claims: ["my": "payload"], algorithm: .hs256("secret".data(using: .utf8)!))
+        //JWT.encode(claims: ["my": "payload"], algorithm: .hs256("secret".data(using: .utf8)!))
         
         
     }

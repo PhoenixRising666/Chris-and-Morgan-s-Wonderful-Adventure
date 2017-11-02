@@ -1,0 +1,6 @@
+framework module Pods_Chris_and_Morgan_s_Wonderful_Adventure {
+  umbrella header "Pods-Chris and Morgan's Wonderful Adventure-umbrella.h"
+
+  export *
+  module * { export * }
+}

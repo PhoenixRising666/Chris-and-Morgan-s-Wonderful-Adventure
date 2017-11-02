@@ -12,9 +12,12 @@
 		D3A78C981FABA38600972C88 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3A78C961FABA38600972C88 /* Main.storyboard */; };
 		D3A78C9A1FABA38600972C88 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3A78C991FABA38600972C88 /* Assets.xcassets */; };
 		D3A78C9D1FABA38600972C88 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3A78C9B1FABA38600972C88 /* LaunchScreen.storyboard */; };
+		EB63429551E17466B9031AEF /* Pods_Chris_and_Morgan_s_Wonderful_Adventure.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE2778433FA099EDBA82094C /* Pods_Chris_and_Morgan_s_Wonderful_Adventure.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		33CE1525CD6F17E41E3D9396 /* Pods-Chris and Morgan's Wonderful Adventure.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Chris and Morgan's Wonderful Adventure.release.xcconfig"; path = "Pods/Target Support Files/Pods-Chris and Morgan's Wonderful Adventure/Pods-Chris and Morgan's Wonderful Adventure.release.xcconfig"; sourceTree = "<group>"; };
+		85822BED56844F13759A5689 /* Pods-Chris and Morgan's Wonderful Adventure.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Chris and Morgan's Wonderful Adventure.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Chris and Morgan's Wonderful Adventure/Pods-Chris and Morgan's Wonderful Adventure.debug.xcconfig"; sourceTree = "<group>"; };
 		D3A78C8F1FABA38600972C88 /* Chris and Morgan's Wonderful Adventure.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Chris and Morgan's Wonderful Adventure.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3A78C921FABA38600972C88 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D3A78C941FABA38600972C88 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +25,7 @@
 		D3A78C991FABA38600972C88 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D3A78C9C1FABA38600972C88 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D3A78C9E1FABA38600972C88 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE2778433FA099EDBA82094C /* Pods_Chris_and_Morgan_s_Wonderful_Adventure.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Chris_and_Morgan_s_Wonderful_Adventure.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +33,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EB63429551E17466B9031AEF /* Pods_Chris_and_Morgan_s_Wonderful_Adventure.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		02E167378A9D728AB181A00C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				85822BED56844F13759A5689 /* Pods-Chris and Morgan's Wonderful Adventure.debug.xcconfig */,
+				33CE1525CD6F17E41E3D9396 /* Pods-Chris and Morgan's Wonderful Adventure.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		35CF158AAAC69130ECCDCE4E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EE2778433FA099EDBA82094C /* Pods_Chris_and_Morgan_s_Wonderful_Adventure.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		D3A78C861FABA38600972C88 = {
 			isa = PBXGroup;
 			children = (
 				D3A78C911FABA38600972C88 /* Chris and Morgan's Wonderful Adventure */,
 				D3A78C901FABA38600972C88 /* Products */,
+				02E167378A9D728AB181A00C /* Pods */,
+				35CF158AAAC69130ECCDCE4E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -71,9 +95,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D3A78CA11FABA38600972C88 /* Build configuration list for PBXNativeTarget "Chris and Morgan's Wonderful Adventure" */;
 			buildPhases = (
+				1FE9C354F89EB77FC28AA171 /* [CP] Check Pods Manifest.lock */,
 				D3A78C8B1FABA38600972C88 /* Sources */,
 				D3A78C8C1FABA38600972C88 /* Frameworks */,
 				D3A78C8D1FABA38600972C88 /* Resources */,
+				16E17E7EFBD598AA1C74369A /* [CP] Embed Pods Frameworks */,
+				8C3ABB0D27D4E7F363345635 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -130,6 +157,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		16E17E7EFBD598AA1C74369A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Chris and Morgan's Wonderful Adventure/Pods-Chris and Morgan's Wonderful Adventure-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1FE9C354F89EB77FC28AA171 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		8C3ABB0D27D4E7F363345635 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Chris and Morgan's Wonderful Adventure/Pods-Chris and Morgan's Wonderful Adventure-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		D3A78C8B1FABA38600972C88 /* Sources */ = {
@@ -272,6 +347,7 @@
 		};
 		D3A78CA21FABA38600972C88 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 85822BED56844F13759A5689 /* Pods-Chris and Morgan's Wonderful Adventure.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -287,6 +363,7 @@
 		};
 		D3A78CA31FABA38600972C88 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 33CE1525CD6F17E41E3D9396 /* Pods-Chris and Morgan's Wonderful Adventure.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

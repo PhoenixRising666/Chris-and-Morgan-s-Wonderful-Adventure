@@ -7,4 +7,6 @@ target 'Chris and Morgan\'s Wonderful Adventure' do
 
   # Pods for Chris and Morgan's Wonderful Adventure
 
+    pod 'JSONWebToken'
+
 end
