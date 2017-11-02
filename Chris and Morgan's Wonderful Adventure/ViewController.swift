@@ -7,12 +7,19 @@
 //
 
 import UIKit
+import JWT
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+    }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        JWT.encode(claims: ["my": "payload"], algorithm: .hs256("secret".data(using: .utf8)!))
+        
+        
     }
 
     override func didReceiveMemoryWarning() {
