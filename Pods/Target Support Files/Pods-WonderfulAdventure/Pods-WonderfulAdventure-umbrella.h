@@ -11,6 +11,6 @@
 #endif
 
 
-FOUNDATION_EXPORT double Pods_Chris_and_Morgan_s_Wonderful_AdventureVersionNumber;
-FOUNDATION_EXPORT const unsigned char Pods_Chris_and_Morgan_s_Wonderful_AdventureVersionString[];
+FOUNDATION_EXPORT double Pods_WonderfulAdventureVersionNumber;
+FOUNDATION_EXPORT const unsigned char Pods_WonderfulAdventureVersionString[];
 

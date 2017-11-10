@@ -7,25 +7,38 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		039D41FAE2DD868260758D89001EC69A /* HMACCommonCrypto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F82B093AFF2C625A09162874402F925 /* HMACCommonCrypto.swift */; };
-		198DBA256F916CA8E7C6C2E97796D5FB /* Pods-Chris and Morgan's Wonderful Adventure-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 515E083B2459C2863DA5ECFB871FE34A /* Pods-Chris and Morgan's Wonderful Adventure-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1C8DE41099A890D58CA488076828B350 /* JWT.swift in Sources */ = {isa = PBXBuildFile; fileRef = 216205ED0AB264CF0AD3BDD680A87F8D /* JWT.swift */; };
-		3BFCB70093CDC6323C4CDC56A8309182 /* Claims.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5C0C7DBD85D9C446CF41B5A4C2EF362 /* Claims.swift */; };
-		43CB9FBF4F563866570B3AADCC6E6949 /* ClaimSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5ABB3286346469839DA7FAF0F2062B8 /* ClaimSet.swift */; };
-		47350F397159F4125A4B1EFD3E04673A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		5225B5598072D741D8303EB9D122925E /* JSONWebToken-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C9B4733DD7FFDEA576E9EED44F1871D /* JSONWebToken-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5D5490C4D59F4170AB2EE20A9DC87820 /* JOSEHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14AD9CB94C4112E10B789F167C3847EC /* JOSEHeader.swift */; };
-		5F7B8955B7CFB46DCF40C334C1FA868D /* Encode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5637FD46B5360726794B76040A3AC3E6 /* Encode.swift */; };
-		7E75477F1E2564FA14F28723F4B4FCFC /* Pods-Chris and Morgan's Wonderful Adventure-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 58CAFEAEB68658484704F39C300F1CFF /* Pods-Chris and Morgan's Wonderful Adventure-dummy.m */; };
+		024173B197E73583416BA63C9C19CF06 /* SSLSecurity.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7F2943622BAE01368BC5D739E1F9319 /* SSLSecurity.swift */; };
+		039D41FAE2DD868260758D89001EC69A /* HMACCommonCrypto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0132E546AD66792A505F919DF35A9660 /* HMACCommonCrypto.swift */; };
+		0547699C2F88755C040B2335E98D76B4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		1C8DE41099A890D58CA488076828B350 /* JWT.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57A14431A67E0BB4AD43A4C0CD181A32 /* JWT.swift */; };
+		3BFCB70093CDC6323C4CDC56A8309182 /* Claims.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0E87F090F82CF34DEF92F005C57BC77 /* Claims.swift */; };
+		43CB9FBF4F563866570B3AADCC6E6949 /* ClaimSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7977576471779781862733049E70F5B9 /* ClaimSet.swift */; };
+		482EBBDA192EE96075B6DEF4BA22A5F9 /* Pods-WonderfulAdventure-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3FC00AA859F89E08304E58ABC7661D10 /* Pods-WonderfulAdventure-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		51C216A6C16E6BDD53FFA97CFDD815EF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		5225B5598072D741D8303EB9D122925E /* JSONWebToken-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 81A0373367C431CB2A41657D3ADA2433 /* JSONWebToken-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		57B26713CC288DC067DE7B28259EA581 /* Pods-WonderfulAdventure-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CD1889AEA8F8E7EE6BEFD4818164DE31 /* Pods-WonderfulAdventure-dummy.m */; };
+		5D5490C4D59F4170AB2EE20A9DC87820 /* JOSEHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55C423C395F3B53BB3D43F15E0760FC3 /* JOSEHeader.swift */; };
+		5DFC180CE8FBAABC2768BDD4E5EB2E53 /* Compression.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49F0966A4C414B7FD5AD7DF74F2BCB25 /* Compression.swift */; };
+		5F7B8955B7CFB46DCF40C334C1FA868D /* Encode.swift in Sources */ = {isa = PBXBuildFile; fileRef = D65EB2F52B0D0D35A9ECE35456A32161 /* Encode.swift */; };
 		9673E6DC1978A3570F513DFB20F5D33A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		9D738A06230ED68D87E31FD99FB674CA /* Base64.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19576547D82E31266340D7D283E791B1 /* Base64.swift */; };
-		B37E22D2C326CEDE8C0B899C0BDD573D /* JSONWebToken-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A384E3CB8724F05BF113F08EF38CB650 /* JSONWebToken-dummy.m */; };
-		B5F5B5C06333376202D27E88D7D5BF09 /* Decode.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3C87FD87B14DAB5E07B10B180A4DFF3 /* Decode.swift */; };
-		D86844F60046B5C66BF80E3105FE2930 /* HMAC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 738D59CFB2491A9840E09EF225EEB666 /* HMAC.swift */; };
+		9D738A06230ED68D87E31FD99FB674CA /* Base64.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA680C31E4195DDB32D5775BBEE139B /* Base64.swift */; };
+		A99AFD8860FBE9475737D5C9A0B528BC /* Starscream-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3038F6489D4366D0332F3B255C7EC656 /* Starscream-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B37E22D2C326CEDE8C0B899C0BDD573D /* JSONWebToken-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AA7889102E54F8AD78108291C2D8352 /* JSONWebToken-dummy.m */; };
+		B5F5B5C06333376202D27E88D7D5BF09 /* Decode.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1E0120F8105A5577A2ADD0C74B0A594 /* Decode.swift */; };
+		D4A663B7C7B21250009B7AD1C22898DD /* WebSocket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80FE147BF30DE89AC118562A1067469B /* WebSocket.swift */; };
+		D86844F60046B5C66BF80E3105FE2930 /* HMAC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56C3568F33681F31B7A60FE98B1E8528 /* HMAC.swift */; };
+		F41F35D1499900526224604B2665A313 /* Starscream-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BA05CB61C64A5096704F9FC9D6FBF06 /* Starscream-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		135F5BE35BA6C67F038AA5FD37EA3D48 /* PBXContainerItemProxy */ = {
+		755FDE853513B37AE5F271F76D48DDBE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 77C5DDED1AAE783B98542058F22D803F;
+			remoteInfo = Starscream;
+		};
+		D854F050BE0289D880102E0E5EFE5E92 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
@@ -35,43 +48,61 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		114EBE31E2C1B4D52DA28DC522EEF123 /* Pods-Chris and Morgan's Wonderful Adventure.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-Chris and Morgan's Wonderful Adventure.modulemap"; sourceTree = "<group>"; };
-		14AD9CB94C4112E10B789F167C3847EC /* JOSEHeader.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JOSEHeader.swift; path = Sources/JOSEHeader.swift; sourceTree = "<group>"; };
-		19576547D82E31266340D7D283E791B1 /* Base64.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Base64.swift; path = Sources/Base64.swift; sourceTree = "<group>"; };
-		216205ED0AB264CF0AD3BDD680A87F8D /* JWT.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JWT.swift; path = Sources/JWT.swift; sourceTree = "<group>"; };
-		25364823B116D1932120CF738EC4F4C9 /* Pods_Chris_and_Morgan_s_Wonderful_Adventure.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Chris_and_Morgan_s_Wonderful_Adventure.framework; path = "Pods-Chris and Morgan's Wonderful Adventure.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		2C9B4733DD7FFDEA576E9EED44F1871D /* JSONWebToken-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JSONWebToken-umbrella.h"; sourceTree = "<group>"; };
-		4DE5AAF6B712DCFE54EF83572DADE65C /* Pods-Chris and Morgan's Wonderful Adventure-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Chris and Morgan's Wonderful Adventure-resources.sh"; sourceTree = "<group>"; };
-		515E083B2459C2863DA5ECFB871FE34A /* Pods-Chris and Morgan's Wonderful Adventure-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Chris and Morgan's Wonderful Adventure-umbrella.h"; sourceTree = "<group>"; };
-		5637FD46B5360726794B76040A3AC3E6 /* Encode.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Encode.swift; path = Sources/Encode.swift; sourceTree = "<group>"; };
-		56896012BE3E1FB78AD14ECEB7A61AD8 /* JSONWebToken.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JSONWebToken.xcconfig; sourceTree = "<group>"; };
-		58CAFEAEB68658484704F39C300F1CFF /* Pods-Chris and Morgan's Wonderful Adventure-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Chris and Morgan's Wonderful Adventure-dummy.m"; sourceTree = "<group>"; };
-		5CA54972EB451406428845213DB815BC /* Pods-Chris and Morgan's Wonderful Adventure-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Chris and Morgan's Wonderful Adventure-acknowledgements.markdown"; sourceTree = "<group>"; };
+		0132E546AD66792A505F919DF35A9660 /* HMACCommonCrypto.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HMACCommonCrypto.swift; path = Sources/HMACCommonCrypto.swift; sourceTree = "<group>"; };
+		08E7C4EBB7EC1C7C8F1B284749FBABE2 /* JSONWebToken-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JSONWebToken-prefix.pch"; sourceTree = "<group>"; };
+		1631467884AFA085D28025979F9495A8 /* Pods-WonderfulAdventure.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WonderfulAdventure.release.xcconfig"; sourceTree = "<group>"; };
+		1DC26DDE9E70C3D59D87B8D8F134D6E0 /* Pods-WonderfulAdventure.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-WonderfulAdventure.modulemap"; sourceTree = "<group>"; };
+		281B98348DFE5FDC4B565D64613C8A0C /* JSONWebToken.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JSONWebToken.xcconfig; sourceTree = "<group>"; };
+		29D30FBB75FC5B12E75A3F4F7802D9A1 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2C686CA409001715D07449F954696472 /* Starscream-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Starscream-prefix.pch"; sourceTree = "<group>"; };
+		2EE01CD9228B8DC9BDB35BF1DCEF019B /* JSONWebToken.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = JSONWebToken.modulemap; sourceTree = "<group>"; };
+		3038F6489D4366D0332F3B255C7EC656 /* Starscream-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Starscream-umbrella.h"; sourceTree = "<group>"; };
+		3FC00AA859F89E08304E58ABC7661D10 /* Pods-WonderfulAdventure-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WonderfulAdventure-umbrella.h"; sourceTree = "<group>"; };
+		49F0966A4C414B7FD5AD7DF74F2BCB25 /* Compression.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Compression.swift; path = Sources/Compression.swift; sourceTree = "<group>"; };
+		4C562FC9F3799F927B02F9FD2EC6F68F /* Starscream.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = Starscream.modulemap; sourceTree = "<group>"; };
+		4EA7DFBA1E026D663C73884CC2CF2DED /* Pods-WonderfulAdventure-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WonderfulAdventure-acknowledgements.plist"; sourceTree = "<group>"; };
+		53BDFD8E532E7028A377555ED8F01C95 /* Pods-WonderfulAdventure-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WonderfulAdventure-acknowledgements.markdown"; sourceTree = "<group>"; };
+		55C423C395F3B53BB3D43F15E0760FC3 /* JOSEHeader.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JOSEHeader.swift; path = Sources/JOSEHeader.swift; sourceTree = "<group>"; };
+		56C3568F33681F31B7A60FE98B1E8528 /* HMAC.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HMAC.swift; path = Sources/HMAC.swift; sourceTree = "<group>"; };
+		57A14431A67E0BB4AD43A4C0CD181A32 /* JWT.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JWT.swift; path = Sources/JWT.swift; sourceTree = "<group>"; };
+		5AA7889102E54F8AD78108291C2D8352 /* JSONWebToken-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JSONWebToken-dummy.m"; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		738D59CFB2491A9840E09EF225EEB666 /* HMAC.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HMAC.swift; path = Sources/HMAC.swift; sourceTree = "<group>"; };
-		8F82B093AFF2C625A09162874402F925 /* HMACCommonCrypto.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HMACCommonCrypto.swift; path = Sources/HMACCommonCrypto.swift; sourceTree = "<group>"; };
+		7977576471779781862733049E70F5B9 /* ClaimSet.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ClaimSet.swift; path = Sources/ClaimSet.swift; sourceTree = "<group>"; };
+		7BA05CB61C64A5096704F9FC9D6FBF06 /* Starscream-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Starscream-dummy.m"; sourceTree = "<group>"; };
+		80AC2426D85C718393A3FBCFE2A06303 /* Starscream.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Starscream.framework; path = Starscream.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		80FE147BF30DE89AC118562A1067469B /* WebSocket.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WebSocket.swift; path = Sources/WebSocket.swift; sourceTree = "<group>"; };
+		81A0373367C431CB2A41657D3ADA2433 /* JSONWebToken-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JSONWebToken-umbrella.h"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		94065DD20784F5EAA45CB54DDF1A9E5E /* Pods-Chris and Morgan's Wonderful Adventure-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Chris and Morgan's Wonderful Adventure-acknowledgements.plist"; sourceTree = "<group>"; };
-		9EF0838952DE89E507325426520FC953 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A384E3CB8724F05BF113F08EF38CB650 /* JSONWebToken-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JSONWebToken-dummy.m"; sourceTree = "<group>"; };
-		A3AF4CB8F5F4C92FEB0F950D32BC37DE /* JWT.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = JWT.framework; path = JSONWebToken.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		A3C87FD87B14DAB5E07B10B180A4DFF3 /* Decode.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Decode.swift; path = Sources/Decode.swift; sourceTree = "<group>"; };
-		A483A719EB106989C3A4ACDA11079FA4 /* JSONWebToken.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = JSONWebToken.modulemap; sourceTree = "<group>"; };
-		A5E71B1C081F19C23F955D5C8DC16CA4 /* JSONWebToken-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JSONWebToken-prefix.pch"; sourceTree = "<group>"; };
-		C5C0C7DBD85D9C446CF41B5A4C2EF362 /* Claims.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Claims.swift; path = Sources/Claims.swift; sourceTree = "<group>"; };
-		CD6DD1A70A44BDD2F850EF0A25CD1E60 /* Pods-Chris and Morgan's Wonderful Adventure-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Chris and Morgan's Wonderful Adventure-frameworks.sh"; sourceTree = "<group>"; };
-		D5ABB3286346469839DA7FAF0F2062B8 /* ClaimSet.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ClaimSet.swift; path = Sources/ClaimSet.swift; sourceTree = "<group>"; };
-		DDFC6D0F402CEFE59CEDA1BBFCEE4213 /* Pods-Chris and Morgan's Wonderful Adventure.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Chris and Morgan's Wonderful Adventure.release.xcconfig"; sourceTree = "<group>"; };
-		E10D8533053DCC89FEC06AB9EAE68F12 /* Pods-Chris and Morgan's Wonderful Adventure.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Chris and Morgan's Wonderful Adventure.debug.xcconfig"; sourceTree = "<group>"; };
-		F01DA2849942F58B08ED9DF3A710A0DC /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B5D14A403ADF618CD0DE363CC870B909 /* Pods-WonderfulAdventure-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WonderfulAdventure-resources.sh"; sourceTree = "<group>"; };
+		C877A8AC3B1B7CEB6B25A390732627BE /* Starscream.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Starscream.xcconfig; sourceTree = "<group>"; };
+		CD1889AEA8F8E7EE6BEFD4818164DE31 /* Pods-WonderfulAdventure-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WonderfulAdventure-dummy.m"; sourceTree = "<group>"; };
+		CDA5745C3D324018DD6DAB298CD20E20 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEA680C31E4195DDB32D5775BBEE139B /* Base64.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Base64.swift; path = Sources/Base64.swift; sourceTree = "<group>"; };
+		D1E0120F8105A5577A2ADD0C74B0A594 /* Decode.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Decode.swift; path = Sources/Decode.swift; sourceTree = "<group>"; };
+		D65EB2F52B0D0D35A9ECE35456A32161 /* Encode.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Encode.swift; path = Sources/Encode.swift; sourceTree = "<group>"; };
+		D662C72DD3F15473BBCAF63E3D89334A /* JWT.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = JWT.framework; path = JSONWebToken.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7F2943622BAE01368BC5D739E1F9319 /* SSLSecurity.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SSLSecurity.swift; path = Sources/SSLSecurity.swift; sourceTree = "<group>"; };
+		E0E87F090F82CF34DEF92F005C57BC77 /* Claims.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Claims.swift; path = Sources/Claims.swift; sourceTree = "<group>"; };
+		E6C2EFE5659A7C3D2F7E461B5908E219 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC33DAC0786E9B29F7210A57D1845792 /* Pods-WonderfulAdventure-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WonderfulAdventure-frameworks.sh"; sourceTree = "<group>"; };
+		ED285A4BF260420E340A2185B6CED8F0 /* Pods-WonderfulAdventure.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WonderfulAdventure.debug.xcconfig"; sourceTree = "<group>"; };
+		EFF66CF92340D4B91CC6F872A16963C8 /* Pods_WonderfulAdventure.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_WonderfulAdventure.framework; path = "Pods-WonderfulAdventure.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		E1E0558D928F35A75181D94DAC6205F2 /* Frameworks */ = {
+		4A4B120101A11EA3CBEBAEC71AF9D1FE /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				47350F397159F4125A4B1EFD3E04673A /* Foundation.framework in Frameworks */,
+				0547699C2F88755C040B2335E98D76B4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61BC61347AD432B0660C72605DEF5991 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				51C216A6C16E6BDD53FFA97CFDD815EF /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -86,31 +117,107 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0694548C6C6E66169A914DE5493402CC /* Products */ = {
+		17FF1EA2774657C6763454DEA708C2A8 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A3AF4CB8F5F4C92FEB0F950D32BC37DE /* JWT.framework */,
-				25364823B116D1932120CF738EC4F4C9 /* Pods_Chris_and_Morgan_s_Wonderful_Adventure.framework */,
+				D662C72DD3F15473BBCAF63E3D89334A /* JWT.framework */,
+				EFF66CF92340D4B91CC6F872A16963C8 /* Pods_WonderfulAdventure.framework */,
+				80AC2426D85C718393A3FBCFE2A06303 /* Starscream.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		2FA86C6689A70494604851D42618CA07 /* Pods-Chris and Morgan's Wonderful Adventure */ = {
+		2A1BC4F7871A89DAE0385A57CD1EDAA2 /* Starscream */ = {
 			isa = PBXGroup;
 			children = (
-				9EF0838952DE89E507325426520FC953 /* Info.plist */,
-				114EBE31E2C1B4D52DA28DC522EEF123 /* Pods-Chris and Morgan's Wonderful Adventure.modulemap */,
-				5CA54972EB451406428845213DB815BC /* Pods-Chris and Morgan's Wonderful Adventure-acknowledgements.markdown */,
-				94065DD20784F5EAA45CB54DDF1A9E5E /* Pods-Chris and Morgan's Wonderful Adventure-acknowledgements.plist */,
-				58CAFEAEB68658484704F39C300F1CFF /* Pods-Chris and Morgan's Wonderful Adventure-dummy.m */,
-				CD6DD1A70A44BDD2F850EF0A25CD1E60 /* Pods-Chris and Morgan's Wonderful Adventure-frameworks.sh */,
-				4DE5AAF6B712DCFE54EF83572DADE65C /* Pods-Chris and Morgan's Wonderful Adventure-resources.sh */,
-				515E083B2459C2863DA5ECFB871FE34A /* Pods-Chris and Morgan's Wonderful Adventure-umbrella.h */,
-				E10D8533053DCC89FEC06AB9EAE68F12 /* Pods-Chris and Morgan's Wonderful Adventure.debug.xcconfig */,
-				DDFC6D0F402CEFE59CEDA1BBFCEE4213 /* Pods-Chris and Morgan's Wonderful Adventure.release.xcconfig */,
+				49F0966A4C414B7FD5AD7DF74F2BCB25 /* Compression.swift */,
+				D7F2943622BAE01368BC5D739E1F9319 /* SSLSecurity.swift */,
+				80FE147BF30DE89AC118562A1067469B /* WebSocket.swift */,
+				47B854E362E910C8FDC7B94F8EACEF63 /* Support Files */,
 			);
-			name = "Pods-Chris and Morgan's Wonderful Adventure";
-			path = "Target Support Files/Pods-Chris and Morgan's Wonderful Adventure";
+			name = Starscream;
+			path = Starscream;
+			sourceTree = "<group>";
+		};
+		47B854E362E910C8FDC7B94F8EACEF63 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				CDA5745C3D324018DD6DAB298CD20E20 /* Info.plist */,
+				4C562FC9F3799F927B02F9FD2EC6F68F /* Starscream.modulemap */,
+				C877A8AC3B1B7CEB6B25A390732627BE /* Starscream.xcconfig */,
+				7BA05CB61C64A5096704F9FC9D6FBF06 /* Starscream-dummy.m */,
+				2C686CA409001715D07449F954696472 /* Starscream-prefix.pch */,
+				3038F6489D4366D0332F3B255C7EC656 /* Starscream-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Starscream";
+			sourceTree = "<group>";
+		};
+		4EFC372B3B533E375D7C416BBBB25DF4 /* JSONWebToken */ = {
+			isa = PBXGroup;
+			children = (
+				CEA680C31E4195DDB32D5775BBEE139B /* Base64.swift */,
+				E0E87F090F82CF34DEF92F005C57BC77 /* Claims.swift */,
+				7977576471779781862733049E70F5B9 /* ClaimSet.swift */,
+				D1E0120F8105A5577A2ADD0C74B0A594 /* Decode.swift */,
+				D65EB2F52B0D0D35A9ECE35456A32161 /* Encode.swift */,
+				56C3568F33681F31B7A60FE98B1E8528 /* HMAC.swift */,
+				0132E546AD66792A505F919DF35A9660 /* HMACCommonCrypto.swift */,
+				55C423C395F3B53BB3D43F15E0760FC3 /* JOSEHeader.swift */,
+				57A14431A67E0BB4AD43A4C0CD181A32 /* JWT.swift */,
+				73CA38DE6A5D3B1635E4130F7AD75918 /* Support Files */,
+			);
+			name = JSONWebToken;
+			path = JSONWebToken;
+			sourceTree = "<group>";
+		};
+		5427A83A8B93408DF84030AA874F06A3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4EFC372B3B533E375D7C416BBBB25DF4 /* JSONWebToken */,
+				2A1BC4F7871A89DAE0385A57CD1EDAA2 /* Starscream */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		5F6AC0B4A7900F1472BBBBF86E512D73 /* Pods-WonderfulAdventure */ = {
+			isa = PBXGroup;
+			children = (
+				29D30FBB75FC5B12E75A3F4F7802D9A1 /* Info.plist */,
+				1DC26DDE9E70C3D59D87B8D8F134D6E0 /* Pods-WonderfulAdventure.modulemap */,
+				53BDFD8E532E7028A377555ED8F01C95 /* Pods-WonderfulAdventure-acknowledgements.markdown */,
+				4EA7DFBA1E026D663C73884CC2CF2DED /* Pods-WonderfulAdventure-acknowledgements.plist */,
+				CD1889AEA8F8E7EE6BEFD4818164DE31 /* Pods-WonderfulAdventure-dummy.m */,
+				EC33DAC0786E9B29F7210A57D1845792 /* Pods-WonderfulAdventure-frameworks.sh */,
+				B5D14A403ADF618CD0DE363CC870B909 /* Pods-WonderfulAdventure-resources.sh */,
+				3FC00AA859F89E08304E58ABC7661D10 /* Pods-WonderfulAdventure-umbrella.h */,
+				ED285A4BF260420E340A2185B6CED8F0 /* Pods-WonderfulAdventure.debug.xcconfig */,
+				1631467884AFA085D28025979F9495A8 /* Pods-WonderfulAdventure.release.xcconfig */,
+			);
+			name = "Pods-WonderfulAdventure";
+			path = "Target Support Files/Pods-WonderfulAdventure";
+			sourceTree = "<group>";
+		};
+		67DFABDD507DBA303C5B8F00B3773DE0 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5F6AC0B4A7900F1472BBBBF86E512D73 /* Pods-WonderfulAdventure */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		73CA38DE6A5D3B1635E4130F7AD75918 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E6C2EFE5659A7C3D2F7E461B5908E219 /* Info.plist */,
+				2EE01CD9228B8DC9BDB35BF1DCEF019B /* JSONWebToken.modulemap */,
+				281B98348DFE5FDC4B565D64613C8A0C /* JSONWebToken.xcconfig */,
+				5AA7889102E54F8AD78108291C2D8352 /* JSONWebToken-dummy.m */,
+				08E7C4EBB7EC1C7C8F1B284749FBABE2 /* JSONWebToken-prefix.pch */,
+				81A0373367C431CB2A41657D3ADA2433 /* JSONWebToken-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/JSONWebToken";
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
@@ -118,58 +225,10 @@
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				7E8C0D7D9A6898486693446D51658098 /* Pods */,
-				0694548C6C6E66169A914DE5493402CC /* Products */,
-				B2CD907D168812370AED93A078BDCB0E /* Targets Support Files */,
+				5427A83A8B93408DF84030AA874F06A3 /* Pods */,
+				17FF1EA2774657C6763454DEA708C2A8 /* Products */,
+				67DFABDD507DBA303C5B8F00B3773DE0 /* Targets Support Files */,
 			);
-			sourceTree = "<group>";
-		};
-		7E8C0D7D9A6898486693446D51658098 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				8065E4CE863BBF79A8A99A0975BF952F /* JSONWebToken */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		8065E4CE863BBF79A8A99A0975BF952F /* JSONWebToken */ = {
-			isa = PBXGroup;
-			children = (
-				19576547D82E31266340D7D283E791B1 /* Base64.swift */,
-				C5C0C7DBD85D9C446CF41B5A4C2EF362 /* Claims.swift */,
-				D5ABB3286346469839DA7FAF0F2062B8 /* ClaimSet.swift */,
-				A3C87FD87B14DAB5E07B10B180A4DFF3 /* Decode.swift */,
-				5637FD46B5360726794B76040A3AC3E6 /* Encode.swift */,
-				738D59CFB2491A9840E09EF225EEB666 /* HMAC.swift */,
-				8F82B093AFF2C625A09162874402F925 /* HMACCommonCrypto.swift */,
-				14AD9CB94C4112E10B789F167C3847EC /* JOSEHeader.swift */,
-				216205ED0AB264CF0AD3BDD680A87F8D /* JWT.swift */,
-				83898393C84478E667A218D1B90EF1C2 /* Support Files */,
-			);
-			name = JSONWebToken;
-			path = JSONWebToken;
-			sourceTree = "<group>";
-		};
-		83898393C84478E667A218D1B90EF1C2 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				F01DA2849942F58B08ED9DF3A710A0DC /* Info.plist */,
-				A483A719EB106989C3A4ACDA11079FA4 /* JSONWebToken.modulemap */,
-				56896012BE3E1FB78AD14ECEB7A61AD8 /* JSONWebToken.xcconfig */,
-				A384E3CB8724F05BF113F08EF38CB650 /* JSONWebToken-dummy.m */,
-				A5E71B1C081F19C23F955D5C8DC16CA4 /* JSONWebToken-prefix.pch */,
-				2C9B4733DD7FFDEA576E9EED44F1871D /* JSONWebToken-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/JSONWebToken";
-			sourceTree = "<group>";
-		};
-		B2CD907D168812370AED93A078BDCB0E /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				2FA86C6689A70494604851D42618CA07 /* Pods-Chris and Morgan's Wonderful Adventure */,
-			);
-			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
@@ -191,11 +250,19 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		F80880A040CA0DFAEB3DE1456FFA55B2 /* Headers */ = {
+		16BA6F4655EC8500F0C18978FA697A8D /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				198DBA256F916CA8E7C6C2E97796D5FB /* Pods-Chris and Morgan's Wonderful Adventure-umbrella.h in Headers */,
+				482EBBDA192EE96075B6DEF4BA22A5F9 /* Pods-WonderfulAdventure-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B0499631890BA7C1B02098EC83841D7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A99AFD8860FBE9475737D5C9A0B528BC /* Starscream-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -224,25 +291,43 @@
 			);
 			name = JSONWebToken;
 			productName = JSONWebToken;
-			productReference = A3AF4CB8F5F4C92FEB0F950D32BC37DE /* JWT.framework */;
+			productReference = D662C72DD3F15473BBCAF63E3D89334A /* JWT.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		36F8AF29AF95D1EF1B9CF9BF35EF222E /* Pods-Chris and Morgan's Wonderful Adventure */ = {
+		77C5DDED1AAE783B98542058F22D803F /* Starscream */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C7C51D00685270E23C7B82880AE92621 /* Build configuration list for PBXNativeTarget "Pods-Chris and Morgan's Wonderful Adventure" */;
+			buildConfigurationList = 9AFC32FC41389633E924337D0747103F /* Build configuration list for PBXNativeTarget "Starscream" */;
 			buildPhases = (
-				4B3CB92E2332F04E5ADD34E0EC98E965 /* Sources */,
-				E1E0558D928F35A75181D94DAC6205F2 /* Frameworks */,
-				F80880A040CA0DFAEB3DE1456FFA55B2 /* Headers */,
+				D71C1724E513853EB4D2B512A680713D /* Sources */,
+				4A4B120101A11EA3CBEBAEC71AF9D1FE /* Frameworks */,
+				4B0499631890BA7C1B02098EC83841D7 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				C9BA62F9567625A32AD0EFBF7B42AA67 /* PBXTargetDependency */,
 			);
-			name = "Pods-Chris and Morgan's Wonderful Adventure";
-			productName = "Pods-Chris and Morgan's Wonderful Adventure";
-			productReference = 25364823B116D1932120CF738EC4F4C9 /* Pods_Chris_and_Morgan_s_Wonderful_Adventure.framework */;
+			name = Starscream;
+			productName = Starscream;
+			productReference = 80AC2426D85C718393A3FBCFE2A06303 /* Starscream.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		98E5DBDDE57D11ACF8E3D19F561637DB /* Pods-WonderfulAdventure */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B3DBB5037EA47760B84788DA629930D4 /* Build configuration list for PBXNativeTarget "Pods-WonderfulAdventure" */;
+			buildPhases = (
+				FEAE9425D538F8CE79FCAC7F80C623A9 /* Sources */,
+				61BC61347AD432B0660C72605DEF5991 /* Frameworks */,
+				16BA6F4655EC8500F0C18978FA697A8D /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C31DED640AFE38545F175FD8C272F211 /* PBXTargetDependency */,
+				43FDE5B1899CA544AEBF88B197692372 /* PBXTargetDependency */,
+			);
+			name = "Pods-WonderfulAdventure";
+			productName = "Pods-WonderfulAdventure";
+			productReference = EFF66CF92340D4B91CC6F872A16963C8 /* Pods_WonderfulAdventure.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -262,12 +347,13 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 0694548C6C6E66169A914DE5493402CC /* Products */;
+			productRefGroup = 17FF1EA2774657C6763454DEA708C2A8 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				04ACCD651C30E7B6FE864F0FFE983BA5 /* JSONWebToken */,
-				36F8AF29AF95D1EF1B9CF9BF35EF222E /* Pods-Chris and Morgan's Wonderful Adventure */,
+				98E5DBDDE57D11ACF8E3D19F561637DB /* Pods-WonderfulAdventure */,
+				77C5DDED1AAE783B98542058F22D803F /* Starscream */,
 			);
 		};
 /* End PBXProject section */
@@ -290,22 +376,39 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4B3CB92E2332F04E5ADD34E0EC98E965 /* Sources */ = {
+		D71C1724E513853EB4D2B512A680713D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7E75477F1E2564FA14F28723F4B4FCFC /* Pods-Chris and Morgan's Wonderful Adventure-dummy.m in Sources */,
+				5DFC180CE8FBAABC2768BDD4E5EB2E53 /* Compression.swift in Sources */,
+				024173B197E73583416BA63C9C19CF06 /* SSLSecurity.swift in Sources */,
+				F41F35D1499900526224604B2665A313 /* Starscream-dummy.m in Sources */,
+				D4A663B7C7B21250009B7AD1C22898DD /* WebSocket.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FEAE9425D538F8CE79FCAC7F80C623A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57B26713CC288DC067DE7B28259EA581 /* Pods-WonderfulAdventure-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		C9BA62F9567625A32AD0EFBF7B42AA67 /* PBXTargetDependency */ = {
+		43FDE5B1899CA544AEBF88B197692372 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Starscream;
+			target = 77C5DDED1AAE783B98542058F22D803F /* Starscream */;
+			targetProxy = 755FDE853513B37AE5F271F76D48DDBE /* PBXContainerItemProxy */;
+		};
+		C31DED640AFE38545F175FD8C272F211 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = JSONWebToken;
 			target = 04ACCD651C30E7B6FE864F0FFE983BA5 /* JSONWebToken */;
-			targetProxy = 135F5BE35BA6C67F038AA5FD37EA3D48 /* PBXContainerItemProxy */;
+			targetProxy = D854F050BE0289D880102E0E5EFE5E92 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -356,7 +459,7 @@
 		};
 		3E37E85C992A667203D76FBE0E708349 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 56896012BE3E1FB78AD14ECEB7A61AD8 /* JSONWebToken.xcconfig */;
+			baseConfigurationReference = 281B98348DFE5FDC4B565D64613C8A0C /* JSONWebToken.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -388,48 +491,9 @@
 			};
 			name = Release;
 		};
-		4CC50FBF1557E8B5A673DCB5B7E023F2 /* Debug */ = {
+		46016BD10B9CFC2A7FB20775C99590D4 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E10D8533053DCC89FEC06AB9EAE68F12 /* Pods-Chris and Morgan's Wonderful Adventure.debug.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-Chris and Morgan's Wonderful Adventure/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Chris and Morgan's Wonderful Adventure/Pods-Chris and Morgan's Wonderful Adventure.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_Chris_and_Morgan_s_Wonderful_Adventure;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		4F1C898998AF3617F63B774EC2672E82 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = DDFC6D0F402CEFE59CEDA1BBFCEE4213 /* Pods-Chris and Morgan's Wonderful Adventure.release.xcconfig */;
+			baseConfigurationReference = C877A8AC3B1B7CEB6B25A390732627BE /* Starscream.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -443,22 +507,18 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-Chris and Morgan's Wonderful Adventure/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/Starscream/Starscream-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Starscream/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Chris and Morgan's Wonderful Adventure/Pods-Chris and Morgan's Wonderful Adventure.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Starscream/Starscream.modulemap";
 				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_Chris_and_Morgan_s_Wonderful_Adventure;
+				PRODUCT_NAME = Starscream;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -513,9 +573,44 @@
 			};
 			name = Debug;
 		};
+		A756926CA5A76540AF633C15E30CDE78 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C877A8AC3B1B7CEB6B25A390732627BE /* Starscream.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Starscream/Starscream-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Starscream/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Starscream/Starscream.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = Starscream;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		C0029E4BC4F6295F8E2FFD7F9DEF2D71 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 56896012BE3E1FB78AD14ECEB7A61AD8 /* JSONWebToken.xcconfig */;
+			baseConfigurationReference = 281B98348DFE5FDC4B565D64613C8A0C /* JSONWebToken.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -548,6 +643,83 @@
 			};
 			name = Debug;
 		};
+		E15C6BB5CEE27F429BCE64E4B3DFEBAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ED285A4BF260420E340A2185B6CED8F0 /* Pods-WonderfulAdventure.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-WonderfulAdventure/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WonderfulAdventure/Pods-WonderfulAdventure.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_WonderfulAdventure;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		ED93D072FA679109A94E5E92ED06032F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1631467884AFA085D28025979F9495A8 /* Pods-WonderfulAdventure.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-WonderfulAdventure/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WonderfulAdventure/Pods-WonderfulAdventure.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_WonderfulAdventure;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -560,11 +732,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C7C51D00685270E23C7B82880AE92621 /* Build configuration list for PBXNativeTarget "Pods-Chris and Morgan's Wonderful Adventure" */ = {
+		9AFC32FC41389633E924337D0747103F /* Build configuration list for PBXNativeTarget "Starscream" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4CC50FBF1557E8B5A673DCB5B7E023F2 /* Debug */,
-				4F1C898998AF3617F63B774EC2672E82 /* Release */,
+				A756926CA5A76540AF633C15E30CDE78 /* Debug */,
+				46016BD10B9CFC2A7FB20775C99590D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B3DBB5037EA47760B84788DA629930D4 /* Build configuration list for PBXNativeTarget "Pods-WonderfulAdventure" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E15C6BB5CEE27F429BCE64E4B3DFEBAF /* Debug */,
+				ED93D072FA679109A94E5E92ED06032F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

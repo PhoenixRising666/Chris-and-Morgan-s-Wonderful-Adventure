@@ -12,19 +12,26 @@
 		D3A78C981FABA38600972C88 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3A78C961FABA38600972C88 /* Main.storyboard */; };
 		D3A78C9A1FABA38600972C88 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3A78C991FABA38600972C88 /* Assets.xcassets */; };
 		D3A78C9D1FABA38600972C88 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3A78C9B1FABA38600972C88 /* LaunchScreen.storyboard */; };
-		EB63429551E17466B9031AEF /* Pods_Chris_and_Morgan_s_Wonderful_Adventure.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE2778433FA099EDBA82094C /* Pods_Chris_and_Morgan_s_Wonderful_Adventure.framework */; };
+		D3B507B41FB35ED5002176F1 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = D3B507B31FB35ED5002176F1 /* Podfile */; };
+		D3B507B61FB3612C002176F1 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D3B507B51FB3612C002176F1 /* Default-568h@2x.png */; };
+		D788C088745DE86132453E35 /* Pods_WonderfulAdventure.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FB505C41B89432DA0894B40 /* Pods_WonderfulAdventure.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		33CE1525CD6F17E41E3D9396 /* Pods-Chris and Morgan's Wonderful Adventure.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Chris and Morgan's Wonderful Adventure.release.xcconfig"; path = "Pods/Target Support Files/Pods-Chris and Morgan's Wonderful Adventure/Pods-Chris and Morgan's Wonderful Adventure.release.xcconfig"; sourceTree = "<group>"; };
+		6D395089DF63D0CB4A293298 /* Pods-WonderfulAdventure.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WonderfulAdventure.release.xcconfig"; path = "Pods/Target Support Files/Pods-WonderfulAdventure/Pods-WonderfulAdventure.release.xcconfig"; sourceTree = "<group>"; };
+		7FB505C41B89432DA0894B40 /* Pods_WonderfulAdventure.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WonderfulAdventure.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		85822BED56844F13759A5689 /* Pods-Chris and Morgan's Wonderful Adventure.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Chris and Morgan's Wonderful Adventure.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Chris and Morgan's Wonderful Adventure/Pods-Chris and Morgan's Wonderful Adventure.debug.xcconfig"; sourceTree = "<group>"; };
-		D3A78C8F1FABA38600972C88 /* Chris and Morgan's Wonderful Adventure.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Chris and Morgan's Wonderful Adventure.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8AF5CA3C08C091AC2C62996B /* Pods-WonderfulAdventure.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WonderfulAdventure.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WonderfulAdventure/Pods-WonderfulAdventure.debug.xcconfig"; sourceTree = "<group>"; };
+		D3A78C8F1FABA38600972C88 /* WonderfulAdventure.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WonderfulAdventure.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3A78C921FABA38600972C88 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D3A78C941FABA38600972C88 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		D3A78C971FABA38600972C88 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D3A78C991FABA38600972C88 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D3A78C9C1FABA38600972C88 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D3A78C9E1FABA38600972C88 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D3B507B31FB35ED5002176F1 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		D3B507B51FB3612C002176F1 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		EE2778433FA099EDBA82094C /* Pods_Chris_and_Morgan_s_Wonderful_Adventure.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Chris_and_Morgan_s_Wonderful_Adventure.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -33,7 +40,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EB63429551E17466B9031AEF /* Pods_Chris_and_Morgan_s_Wonderful_Adventure.framework in Frameworks */,
+				D788C088745DE86132453E35 /* Pods_WonderfulAdventure.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -43,8 +50,11 @@
 		02E167378A9D728AB181A00C /* Pods */ = {
 			isa = PBXGroup;
 			children = (
+				D3B507B31FB35ED5002176F1 /* Podfile */,
 				85822BED56844F13759A5689 /* Pods-Chris and Morgan's Wonderful Adventure.debug.xcconfig */,
 				33CE1525CD6F17E41E3D9396 /* Pods-Chris and Morgan's Wonderful Adventure.release.xcconfig */,
+				8AF5CA3C08C091AC2C62996B /* Pods-WonderfulAdventure.debug.xcconfig */,
+				6D395089DF63D0CB4A293298 /* Pods-WonderfulAdventure.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -53,6 +63,7 @@
 			isa = PBXGroup;
 			children = (
 				EE2778433FA099EDBA82094C /* Pods_Chris_and_Morgan_s_Wonderful_Adventure.framework */,
+				7FB505C41B89432DA0894B40 /* Pods_WonderfulAdventure.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -60,7 +71,8 @@
 		D3A78C861FABA38600972C88 = {
 			isa = PBXGroup;
 			children = (
-				D3A78C911FABA38600972C88 /* Chris and Morgan's Wonderful Adventure */,
+				D3B507B51FB3612C002176F1 /* Default-568h@2x.png */,
+				D3A78C911FABA38600972C88 /* WonderfulAdventure */,
 				D3A78C901FABA38600972C88 /* Products */,
 				02E167378A9D728AB181A00C /* Pods */,
 				35CF158AAAC69130ECCDCE4E /* Frameworks */,
@@ -70,12 +82,12 @@
 		D3A78C901FABA38600972C88 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D3A78C8F1FABA38600972C88 /* Chris and Morgan's Wonderful Adventure.app */,
+				D3A78C8F1FABA38600972C88 /* WonderfulAdventure.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		D3A78C911FABA38600972C88 /* Chris and Morgan's Wonderful Adventure */ = {
+		D3A78C911FABA38600972C88 /* WonderfulAdventure */ = {
 			isa = PBXGroup;
 			children = (
 				D3A78C921FABA38600972C88 /* AppDelegate.swift */,
@@ -85,15 +97,15 @@
 				D3A78C9B1FABA38600972C88 /* LaunchScreen.storyboard */,
 				D3A78C9E1FABA38600972C88 /* Info.plist */,
 			);
-			path = "Chris and Morgan's Wonderful Adventure";
+			path = WonderfulAdventure;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		D3A78C8E1FABA38600972C88 /* Chris and Morgan's Wonderful Adventure */ = {
+		D3A78C8E1FABA38600972C88 /* WonderfulAdventure */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D3A78CA11FABA38600972C88 /* Build configuration list for PBXNativeTarget "Chris and Morgan's Wonderful Adventure" */;
+			buildConfigurationList = D3A78CA11FABA38600972C88 /* Build configuration list for PBXNativeTarget "WonderfulAdventure" */;
 			buildPhases = (
 				1FE9C354F89EB77FC28AA171 /* [CP] Check Pods Manifest.lock */,
 				D3A78C8B1FABA38600972C88 /* Sources */,
@@ -106,9 +118,9 @@
 			);
 			dependencies = (
 			);
-			name = "Chris and Morgan's Wonderful Adventure";
+			name = WonderfulAdventure;
 			productName = "Chris and Morgan's Wonderful Adventure";
-			productReference = D3A78C8F1FABA38600972C88 /* Chris and Morgan's Wonderful Adventure.app */;
+			productReference = D3A78C8F1FABA38600972C88 /* WonderfulAdventure.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -127,7 +139,7 @@
 					};
 				};
 			};
-			buildConfigurationList = D3A78C8A1FABA38600972C88 /* Build configuration list for PBXProject "Chris and Morgan's Wonderful Adventure" */;
+			buildConfigurationList = D3A78C8A1FABA38600972C88 /* Build configuration list for PBXProject "WonderfulAdventure" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -140,7 +152,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				D3A78C8E1FABA38600972C88 /* Chris and Morgan's Wonderful Adventure */,
+				D3A78C8E1FABA38600972C88 /* WonderfulAdventure */,
 			);
 		};
 /* End PBXProject section */
@@ -152,6 +164,8 @@
 			files = (
 				D3A78C9D1FABA38600972C88 /* LaunchScreen.storyboard in Resources */,
 				D3A78C9A1FABA38600972C88 /* Assets.xcassets in Resources */,
+				D3B507B41FB35ED5002176F1 /* Podfile in Resources */,
+				D3B507B61FB3612C002176F1 /* Default-568h@2x.png in Resources */,
 				D3A78C981FABA38600972C88 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -171,7 +185,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Chris and Morgan's Wonderful Adventure/Pods-Chris and Morgan's Wonderful Adventure-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WonderfulAdventure/Pods-WonderfulAdventure-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		1FE9C354F89EB77FC28AA171 /* [CP] Check Pods Manifest.lock */ = {
@@ -201,7 +215,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Chris and Morgan's Wonderful Adventure/Pods-Chris and Morgan's Wonderful Adventure-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WonderfulAdventure/Pods-WonderfulAdventure-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -347,12 +361,12 @@
 		};
 		D3A78CA21FABA38600972C88 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 85822BED56844F13759A5689 /* Pods-Chris and Morgan's Wonderful Adventure.debug.xcconfig */;
+			baseConfigurationReference = 8AF5CA3C08C091AC2C62996B /* Pods-WonderfulAdventure.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Z7GGAN86UF;
-				INFOPLIST_FILE = "Chris and Morgan's Wonderful Adventure/Info.plist";
+				INFOPLIST_FILE = WonderfulAdventure/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.LivePerson.Chris-and-Morgan-s-Wonderful-Adventure";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -363,12 +377,12 @@
 		};
 		D3A78CA31FABA38600972C88 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 33CE1525CD6F17E41E3D9396 /* Pods-Chris and Morgan's Wonderful Adventure.release.xcconfig */;
+			baseConfigurationReference = 6D395089DF63D0CB4A293298 /* Pods-WonderfulAdventure.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Z7GGAN86UF;
-				INFOPLIST_FILE = "Chris and Morgan's Wonderful Adventure/Info.plist";
+				INFOPLIST_FILE = WonderfulAdventure/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.LivePerson.Chris-and-Morgan-s-Wonderful-Adventure";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -380,7 +394,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		D3A78C8A1FABA38600972C88 /* Build configuration list for PBXProject "Chris and Morgan's Wonderful Adventure" */ = {
+		D3A78C8A1FABA38600972C88 /* Build configuration list for PBXProject "WonderfulAdventure" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D3A78C9F1FABA38600972C88 /* Debug */,
@@ -389,7 +403,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D3A78CA11FABA38600972C88 /* Build configuration list for PBXNativeTarget "Chris and Morgan's Wonderful Adventure" */ = {
+		D3A78CA11FABA38600972C88 /* Build configuration list for PBXNativeTarget "WonderfulAdventure" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D3A78CA21FABA38600972C88 /* Debug */,
